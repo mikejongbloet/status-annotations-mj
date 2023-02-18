@@ -1,0 +1,16 @@
+{
+	"name": "Status Annotations - Forked",
+	"id": "795096273369409539",
+	"api": "1.0.0",
+	"main": "code.js",
+	"editorType": ["figma"],
+  	"ui": "index.html",
+	"menu": [
+		{ "command": "status", "name": "Set status"},
+		{ "command": "refresh", "name": "Refresh statuses"}
+	],
+	"relaunchButtons": [
+		{"command": "status", "name": "Change status",  "multipleSelection": true},
+		{"command": "refresh", "name": "Refresh statuses", "multipleSelection": true}
+	]
+}
